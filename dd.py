@@ -164,7 +164,7 @@ def verifica():
     p = 0
     jojjo = True
     lok = False
-    while jojjo:
+    while jojjo: #asido
         inputt = input("Inserisci un numero di 5 cifre: ")
         while inputt == "sugg" or inputt == "SUGG" or "info " in inputt or inputt == "n" or inputt == "N" or inputt == "r" or inputt == "R":
             if inputt == "sugg" or inputt == "SUGG":
