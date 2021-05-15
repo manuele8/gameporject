@@ -1,0 +1,47 @@
+class VigenereCipher:
+    def __init__(self, key, alphabet):
+        self.key = key
+        self.alphabet = alphabet
+
+    def encode(self, message):
+        array = []
+        array2 = []
+        array3 = []
+        string = ""
+        for letter in self.alphabet:
+            array.append(letter)
+        for letter in message:
+            if letter not in self.alphabet:
+                array2.append(0)
+            else:
+                array2.append(array.index(letter))
+        for letter in self.key:
+            array3.append(array.index(letter))
+        if len(array2) != 0 and len(array2) == len(array3):
+            for i in range(len(array2)):
+                string = string + array[(array2[i] + array3[i]) % len(self.alphabet)]
+            print(string)
+        else:
+            print("Le lunghezze sono diverse!")
+
+
+
+
+
+
+    def decode(self):
+        pass
+
+
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+key = "password"
+
+cripto = VigenereCipher(key, alphabet)
+cripto.encode("CODEWARS")
+
+
+
+
+''' print(array[(((array.index("b")) + (array.index("b"))) - len(array))])'''
+
+

@@ -1,0 +1,1603 @@
+1599157908581	geckodriver	INFO	Listening on 127.0.0.1:65529
+1599157912243	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofile6EjUGO"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599157918193	Marionette	INFO	Listening on port 49154
+1599157918552	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599158091862	Marionette	INFO	Stopped listening on port 49154
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599158093226	geckodriver	INFO	Listening on 127.0.0.1:49279
+1599158096876	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileci8g8d"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599158100380	Marionette	INFO	Listening on port 49287
+1599158100553	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/06222840d50a7000ff8dcb702465ef57.js?tag=video_mra/web_fig_och, line 177: SecurityError: The operation is insecure.
+JavaScript error: data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=, line 1: SyntaxError: illegal character
+JavaScript error: resource://gre/modules/WebNavigationContent.js, line 271: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1599158218123	Marionette	INFO	Stopped listening on port 49287
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+efox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilePNSesP"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1599158173764	Marionette	INFO	Listening on port 49626
+extension-storage: migration complete
+1599158173862	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599158183415	Marionette	INFO	Stopped listening on port 49626
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599158194915	geckodriver	INFO	Listening on 127.0.0.1:49681
+1599158198604	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilenWXs97"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599158202220	Marionette	INFO	Listening on port 49689
+1599158202301	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599158217384	Marionette	INFO	Stopped listening on port 49689
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599158259367	geckodriver	INFO	Listening on 127.0.0.1:49849
+1599158263033	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilen2kmBi"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 483: TypeError: window is null
+1599158266582	Marionette	INFO	Listening on port 49857
+1599158266691	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599158429701	Marionette	INFO	Stopped listening on port 49857
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599158437732	geckodriver	INFO	Listening on 127.0.0.1:50044
+1599158441356	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilegGtFmj"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: moz-extension://415010d6-923d-4ced-9628-4fb75699dbd7/content/staticNS.js, line 60: ReferenceError: policy is not defined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: can't access dead object
+extension-storage: migration complete
+1599158444921	Marionette	INFO	Listening on port 50052
+1599158444987	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+1599158458222	Marionette	INFO	Stopped listening on port 50052
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599158709572	geckodriver	INFO	Listening on 127.0.0.1:50160
+1599158714793	geckodriver	INFO	Listening on 127.0.0.1:50167
+1599158718419	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilezbyEMW"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599158721823	Marionette	INFO	Listening on port 50175
+1599158722068	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: , line 0: uncaught exception: Object
+1599158844165	Marionette	INFO	Stopped listening on port 50175
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599158893026	geckodriver	INFO	Listening on 127.0.0.1:50279
+1599158896664	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileLUoI1V"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: can't access dead object
+extension-storage: migration complete
+1599158900456	Marionette	INFO	Listening on port 50287
+1599158900794	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599158916957	Marionette	INFO	Stopped listening on port 50287
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599158918600	geckodriver	INFO	Listening on 127.0.0.1:50359
+1599158921823	geckodriver	INFO	Listening on 127.0.0.1:50369
+1599158925460	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileYA8gMb"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599158928888	Marionette	INFO	Listening on port 50377
+1599158929097	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/06222840d50a7000ff8dcb702465ef57.js?tag=video_mra/web_fig_och, line 177: SecurityError: The operation is insecure.
+1599158993444	geckodriver	INFO	Listening on 127.0.0.1:50515
+1599158997082	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileHFkNSH"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599159000575	Marionette	INFO	Listening on port 50523
+1599159000708	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+1599159030811	Marionette	INFO	Stopped listening on port 50523
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599159036881	geckodriver	INFO	Listening on 127.0.0.1:50662
+1599159040517	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileknbMqi"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: can't access dead object
+extension-storage: migration complete
+1599159044121	Marionette	INFO	Listening on port 50670
+1599159044144	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1599159185120	Marionette	INFO	Stopped listening on port 50670
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599159209851	geckodriver	INFO	Listening on 127.0.0.1:50794
+1599159213485	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilebWKnsP"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599159217039	Marionette	INFO	Listening on port 50803
+1599159217111	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 689))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: , line 0: uncaught exception: Object
+1599159333171	Marionette	INFO	Stopped listening on port 50803
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599159342448	geckodriver	INFO	Listening on 127.0.0.1:50925
+1599159346081	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileftZSTv"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599159349566	Marionette	INFO	Listening on port 50933
+1599159349700	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: services.settings: main/cfr sync interrupted by shutdown
+[Parent 19364, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1599159351948	Marionette	INFO	Stopped listening on port 50933
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599159992682	geckodriver	INFO	Listening on 127.0.0.1:51122
+1599159996307	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofile6fDM9t"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599159999871	Marionette	INFO	Listening on port 51130
+1599159999958	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1599160045418	Marionette	INFO	Stopped listening on port 51130
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599160061711	geckodriver	INFO	Listening on 127.0.0.1:51209
+1599160065353	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofiletdSfxO"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599160068916	Marionette	INFO	Listening on port 51217
+1599160068989	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1599160102378	Marionette	INFO	Stopped listening on port 51217
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599160332022	geckodriver	INFO	Listening on 127.0.0.1:51342
+1599160335644	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileYGtBGE"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1599160343376	geckodriver	INFO	Listening on 127.0.0.1:51363
+1599160347045	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileU0qX3l"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599160350563	Marionette	INFO	Listening on port 51371
+1599160350730	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1599160434243	Marionette	INFO	Stopped listening on port 51371
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599160440016	geckodriver	INFO	Listening on 127.0.0.1:51466
+1599160443645	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilet4iwf5"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599160447071	Marionette	INFO	Listening on port 51474
+1599160447334	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///modules/CustomizableUI.jsm, line 1907: TypeError: this.getPlacementOfWidget(...) is null
+1599160517244	Marionette	INFO	Stopped listening on port 51474
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599160519972	geckodriver	INFO	Listening on 127.0.0.1:51545
+1599160523579	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilegHzEHY"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: can't access dead object
+extension-storage: migration complete
+1599160527081	Marionette	INFO	Listening on port 51553
+1599160527263	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599160545634	Marionette	INFO	Stopped listening on port 51553
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599160547956	geckodriver	INFO	Listening on 127.0.0.1:51632
+1599160551594	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilejcQ9oH"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599160555137	Marionette	INFO	Listening on port 51640
+1599160555253	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599160572316	Marionette	INFO	Stopped listening on port 51640
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599160573568	geckodriver	INFO	Listening on 127.0.0.1:51717
+1599160577245	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilecFbw4U"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 568: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: , line 0: TypeError: can't access dead object
+extension-storage: migration complete
+1599160580668	Marionette	INFO	Listening on port 51725
+1599160580882	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599160592955	Marionette	INFO	Stopped listening on port 51725
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599160594173	geckodriver	INFO	Listening on 127.0.0.1:51796
+1599160597804	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofile5vP4Nh"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599160601353	Marionette	INFO	Listening on port 51804
+1599160601441	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: SyntaxError: JSON.parse: unexpected character at line 1 column 2 of the JSON data
+1599160664184	Marionette	INFO	Stopped listening on port 51804
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599160669763	geckodriver	INFO	Listening on 127.0.0.1:51892
+1599160673379	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilenKdTYZ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: moz-extension://415010d6-923d-4ced-9628-4fb75699dbd7/content/staticNS.js, line 60: ReferenceError: policy is not defined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: can't access dead object
+extension-storage: migration complete
+1599160676902	Marionette	INFO	Listening on port 51900
+1599160677067	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599160677206	Marionette	ERROR	[28] No reply from Marionette:Register
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+console.warn: services.settings: main/hijack-blocklists sync interrupted by shutdown
+console.warn: services.settings: main/message-groups sync interrupted by shutdown
+console.warn: services.settings: main/messaging-experiments sync interrupted by shutdown
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1599160677969	Marionette	INFO	Stopped listening on port 51900
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599161039654	geckodriver	INFO	Listening on 127.0.0.1:52037
+1599161043293	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilejEY2ZE"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599161046700	Marionette	INFO	Listening on port 52045
+1599161046909	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599161154707	Marionette	INFO	Stopped listening on port 52045
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599161156254	geckodriver	INFO	Listening on 127.0.0.1:52197
+1599161159841	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilevFUO7i"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599161163309	Marionette	INFO	Listening on port 52205
+1599161163497	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 20888, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1599161177401	Marionette	INFO	Stopped listening on port 52205
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599161178645	geckodriver	INFO	Listening on 127.0.0.1:52278
+1599161182284	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileccBzFx"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599161185790	Marionette	INFO	Listening on port 52286
+1599161185952	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599161200790	Marionette	INFO	Stopped listening on port 52286
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599161202106	geckodriver	INFO	Listening on 127.0.0.1:52371
+1599161205753	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileZlDrG4"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: moz-extension://415010d6-923d-4ced-9628-4fb75699dbd7/content/staticNS.js, line 60: ReferenceError: policy is not defined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: can't access dead object
+extension-storage: migration complete
+1599161209351	Marionette	INFO	Listening on port 52379
+1599161209414	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1599161303854	Marionette	INFO	Stopped listening on port 52379
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599161486975	geckodriver	INFO	Listening on 127.0.0.1:52575
+1599161490613	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileZ98jkV"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+[Parent 11552, Gecko_IOThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599161497581	geckodriver	INFO	Listening on 127.0.0.1:52603
+1599161501241	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileXhXFxU"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599161504822	Marionette	INFO	Listening on port 52611
+1599161504884	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599161519718	Marionette	INFO	Stopped listening on port 52611
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599161536697	geckodriver	INFO	Listening on 127.0.0.1:52672
+1599161540329	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileW3cMa3"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599161543861	Marionette	INFO	Listening on port 52680
+1599161543978	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599161555324	Marionette	INFO	Stopped listening on port 52680
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599161556787	geckodriver	INFO	Listening on 127.0.0.1:52743
+1599161560408	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofiledvl5RG"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599161564479	Marionette	INFO	Listening on port 52751
+1599161564587	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11852, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1599161575826	Marionette	INFO	Stopped listening on port 52751
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599161577056	geckodriver	INFO	Listening on 127.0.0.1:52813
+1599161580704	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileHI2K3l"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599161584229	Marionette	INFO	Listening on port 52821
+1599161584388	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599161594860	Marionette	INFO	Stopped listening on port 52821
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599161597064	geckodriver	INFO	Listening on 127.0.0.1:52883
+1599161600754	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilefvwBv3"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599161604327	Marionette	INFO	Listening on port 52892
+1599161604419	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599161620769	Marionette	INFO	Stopped listening on port 52892
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599161622170	geckodriver	INFO	Listening on 127.0.0.1:52973
+1599161625816	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileQAqBcA"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599161629322	Marionette	INFO	Listening on port 52981
+1599161629492	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599161639510	Marionette	INFO	Stopped listening on port 52981
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599161640834	geckodriver	INFO	Listening on 127.0.0.1:53046
+1599161644461	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofile8XNXE9"
+1599161645582	geckodriver	INFO	Listening on 127.0.0.1:53061
+1599161649179	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileVTYPGG"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599161652592	Marionette	INFO	Listening on port 53069
+1599161652839	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599161668230	Marionette	INFO	Stopped listening on port 53069
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599161669509	geckodriver	INFO	Listening on 127.0.0.1:53141
+1599161673159	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofile2QLYjS"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599161676718	Marionette	INFO	Listening on port 53149
+1599161676825	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599161687415	Marionette	INFO	Stopped listening on port 53149
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599161689662	geckodriver	INFO	Listening on 127.0.0.1:53221
+1599161693294	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilepBkfYB"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599161696687	Marionette	INFO	Listening on port 53229
+1599161696972	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599161707789	Marionette	INFO	Stopped listening on port 53229
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599161709099	geckodriver	INFO	Listening on 127.0.0.1:53298
+1599161712385	geckodriver	INFO	Listening on 127.0.0.1:53307
+1599161716016	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilefqAkTi"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599161719504	Marionette	INFO	Listening on port 53315
+1599161719679	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599161731558	Marionette	INFO	Stopped listening on port 53315
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599161814394	geckodriver	INFO	Listening on 127.0.0.1:53446
+1599161818044	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileI9vDl1"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599161821640	Marionette	INFO	Listening on port 53454
+1599161821741	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1599161888626	Marionette	INFO	Stopped listening on port 53454
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599161946097	geckodriver	INFO	Listening on 127.0.0.1:53583
+1599161949756	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilemK3z1F"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599161953344	Marionette	INFO	Listening on port 53591
+1599161953424	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+1599162006528	Marionette	INFO	Stopped listening on port 53591
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599162219160	geckodriver	INFO	Listening on 127.0.0.1:53694
+1599162222790	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofile5bViGI"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599162226290	Marionette	INFO	Listening on port 53702
+1599162226428	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599162241786	Marionette	INFO	Stopped listening on port 53702
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599162245813	geckodriver	INFO	Listening on 127.0.0.1:53782
+1599162249476	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileF7Vm5y"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599162252965	Marionette	INFO	Listening on port 53791
+1599162253155	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599162269518	Marionette	INFO	Stopped listening on port 53791
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599162271960	geckodriver	INFO	Listening on 127.0.0.1:53867
+1599162275595	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileRJm0Nj"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: can't access dead object
+extension-storage: migration complete
+1599162279126	Marionette	INFO	Listening on port 53875
+1599162279266	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599162297786	Marionette	INFO	Stopped listening on port 53875
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599162300419	geckodriver	INFO	Listening on 127.0.0.1:53958
+1599162304031	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileoYmEpx"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 483: TypeError: window is null
+1599162307487	Marionette	INFO	Listening on port 53966
+1599162307732	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599162321319	Marionette	INFO	Stopped listening on port 53966
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599162322822	geckodriver	INFO	Listening on 127.0.0.1:54043
+1599162326476	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilejliPAw"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599162329951	Marionette	INFO	Listening on port 54051
+1599162330150	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599162346707	geckodriver	INFO	Listening on 127.0.0.1:54122
+1599162350404	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileMYhyR7"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599162353870	Marionette	INFO	Listening on port 54130
+1599162354064	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599162367083	Marionette	INFO	Stopped listening on port 54130
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599162369339	geckodriver	INFO	Listening on 127.0.0.1:54201
+1599162372957	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileEpQCqF"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599162376532	Marionette	INFO	Listening on port 54209
+1599162376659	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599162390189	Marionette	INFO	Stopped listening on port 54209
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599162392170	geckodriver	INFO	Listening on 127.0.0.1:54290
+1599162395800	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileZNSbss"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599162399340	Marionette	INFO	Listening on port 54298
+1599162399501	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599162461434	Marionette	INFO	Stopped listening on port 54298
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599162463417	geckodriver	INFO	Listening on 127.0.0.1:54428
+1599162467081	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileLAJcRm"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: moz-extension://415010d6-923d-4ced-9628-4fb75699dbd7/content/staticNS.js, line 60: ReferenceError: policy is not defined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: can't access dead object
+extension-storage: migration complete
+1599162470607	Marionette	INFO	Listening on port 54436
+1599162470773	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1599162550800	Marionette	INFO	Stopped listening on port 54436
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599162552003	geckodriver	INFO	Listening on 127.0.0.1:54563
+1599162555641	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileCYSIyu"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599162559039	Marionette	INFO	Listening on port 54571
+1599162559323	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599162577709	Marionette	INFO	Stopped listening on port 54571
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599162582302	geckodriver	INFO	Listening on 127.0.0.1:54650
+1599162585941	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileD8XvsE"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599162589379	Marionette	INFO	Listening on port 54658
+1599162589618	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1599162639753	Marionette	INFO	Stopped listening on port 54658
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599162645737	geckodriver	INFO	Listening on 127.0.0.1:54758
+1599162649416	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileH1aKPQ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: can't access dead object
+extension-storage: migration complete
+1599162652926	Marionette	INFO	Listening on port 54766
+1599162653088	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1599163294294	Marionette	INFO	Stopped listening on port 54766
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofileEzTyvy"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599162760235	Marionette	INFO	Listening on port 54906
+1599162760614	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: , line 0: uncaught exception: Object
+[Parent 20260, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1599162818474	Marionette	INFO	Stopped listening on port 54906
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599162824766	geckodriver	INFO	Listening on 127.0.0.1:55016
+1599162828448	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileU9lvQb"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599162832399	Marionette	INFO	Listening on port 55024
+1599162832607	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599162833571	geckodriver	INFO	Listening on 127.0.0.1:55055
+1599162837231	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilef4ckVo"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599162840751	Marionette	INFO	Listening on port 55063
+1599162840864	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599162855985	Marionette	INFO	Stopped listening on port 55063
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599162858207	geckodriver	INFO	Listening on 127.0.0.1:55130
+1599162861845	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofile97ufPA"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: can't access dead object
+extension-storage: migration complete
+1599162865373	Marionette	INFO	Listening on port 55138
+1599162865504	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599162878313	Marionette	INFO	Stopped listening on port 55138
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599162880447	geckodriver	INFO	Listening on 127.0.0.1:55203
+1599162884098	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileDTzQXA"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: can't access dead object
+extension-storage: migration complete
+1599162887648	Marionette	INFO	Listening on port 55211
+1599162887729	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599162901858	Marionette	INFO	Stopped listening on port 55211
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599162903246	geckodriver	INFO	Listening on 127.0.0.1:55276
+1599162906888	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileL9pMW3"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599162910369	Marionette	INFO	Listening on port 55284
+1599162910582	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599162933368	Marionette	INFO	Stopped listening on port 55284
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599162935753	geckodriver	INFO	Listening on 127.0.0.1:55359
+1599162939403	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileL7RYOQ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599162942924	Marionette	INFO	Listening on port 55367
+1599162943044	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599162955876	Marionette	INFO	Stopped listening on port 55367
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599162958238	geckodriver	INFO	Listening on 127.0.0.1:55438
+1599162961885	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilecBkq45"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: moz-extension://415010d6-923d-4ced-9628-4fb75699dbd7/content/staticNS.js, line 60: ReferenceError: policy is not defined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: can't access dead object
+extension-storage: migration complete
+1599162965406	Marionette	INFO	Listening on port 55446
+1599162965551	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599163003023	Marionette	INFO	Stopped listening on port 55446
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599163005279	geckodriver	INFO	Listening on 127.0.0.1:55514
+1599163008965	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilebfNVD8"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: can't access dead object
+extension-storage: migration complete
+1599163012544	Marionette	INFO	Listening on port 55523
+1599163012617	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1599163025412	Marionette	INFO	Stopped listening on port 55523
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599163027880	geckodriver	INFO	Listening on 127.0.0.1:55595
+1599163031530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileSpcMRM"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599163035007	Marionette	INFO	Listening on port 55603
+1599163035190	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1599163096968	Marionette	INFO	Stopped listening on port 55603
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599163101847	geckodriver	INFO	Listening on 127.0.0.1:55693
+1599163105497	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileZhHWPc"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: can't access dead object
+extension-storage: migration complete
+1599163109013	Marionette	INFO	Listening on port 55703
+1599163109176	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1599163295354	Marionette	INFO	Stopped listening on port 55703
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofilexWv8Q0"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599163152508	Marionette	INFO	Listening on port 55795
+1599163152688	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/messaging-experiments Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+[Parent 16028, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1599163154286	Marionette	INFO	Stopped listening on port 55795
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599163158020	geckodriver	INFO	Listening on 127.0.0.1:55834
+1599163161714	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileyNQ1c9"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599163165481	Marionette	INFO	Listening on port 55842
+1599163165865	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1599163222130	Marionette	INFO	Stopped listening on port 55842
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599163230482	geckodriver	INFO	Listening on 127.0.0.1:55916
+1599163234126	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileUxLOJQ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 483: TypeError: window is null
+1599163237653	Marionette	INFO	Listening on port 55925
+1599163237770	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1599163318282	geckodriver	INFO	Listening on 127.0.0.1:56006
+1599163321932	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilevM9BEi"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599163325466	Marionette	INFO	Listening on port 56014
+1599163325591	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1599163416903	Marionette	INFO	Stopped listening on port 56014
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599163423423	geckodriver	INFO	Listening on 127.0.0.1:56082
+1599163427056	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileCc5yEr"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599163430509	Marionette	INFO	Listening on port 56090
+1599163430733	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1599163442359	Marionette	INFO	Stopped listening on port 56090
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599163443644	geckodriver	INFO	Listening on 127.0.0.1:56157
+1599163447713	geckodriver	INFO	Listening on 127.0.0.1:56168
+1599163451360	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofile3rAddN"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: can't access dead object
+extension-storage: migration complete
+1599163454888	Marionette	INFO	Listening on port 56176
+1599163455047	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599163467510	Marionette	INFO	Stopped listening on port 56176
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599163468866	geckodriver	INFO	Listening on 127.0.0.1:56242
+1599163472520	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileJzoxUM"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599163476039	Marionette	INFO	Listening on port 56251
+1599163476194	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599163491358	Marionette	INFO	Stopped listening on port 56251
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599163492879	geckodriver	INFO	Listening on 127.0.0.1:56320
+1599163496390	geckodriver	INFO	Listening on 127.0.0.1:56329
+1599163500019	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileX3kbe1"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599163503495	Marionette	INFO	Listening on port 56337
+1599163503717	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599163518139	Marionette	INFO	Stopped listening on port 56337
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599163519216	geckodriver	INFO	Listening on 127.0.0.1:56402
+1599163522847	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileiTWr0B"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599163526432	Marionette	INFO	Listening on port 56410
+1599163526546	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1599163538219	Marionette	INFO	Stopped listening on port 56410
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599163539731	geckodriver	INFO	Listening on 127.0.0.1:56474
+1599163543378	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileo6ZVD7"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: can't access dead object
+extension-storage: migration complete
+1599163546951	Marionette	INFO	Listening on port 56482
+1599163547063	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599163566431	Marionette	INFO	Stopped listening on port 56482
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599163606017	geckodriver	INFO	Listening on 127.0.0.1:56538
+1599163609670	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileM4SPyp"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599163613189	Marionette	INFO	Listening on port 56546
+1599163613351	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 689))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1599163718290	Marionette	INFO	Stopped listening on port 56546
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599163814256	geckodriver	INFO	Listening on 127.0.0.1:56658
+1599163817882	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofile1hrolh"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599163821403	Marionette	INFO	Listening on port 56666
+1599163821570	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599163828954	Marionette	INFO	Stopped listening on port 56666
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599163847215	geckodriver	INFO	Listening on 127.0.0.1:56728
+1599163850860	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileMuhVS1"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599163854422	Marionette	INFO	Listening on port 56736
+1599163854542	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599163862472	Marionette	INFO	Stopped listening on port 56736
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599164003138	geckodriver	INFO	Listening on 127.0.0.1:56819
+1599164006788	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileezxnis"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599164010362	Marionette	INFO	Listening on port 56827
+1599164010449	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599164018564	Marionette	INFO	Stopped listening on port 56827
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599164120182	geckodriver	INFO	Listening on 127.0.0.1:56905
+1599164123828	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilejx6xgN"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599164127543	Marionette	INFO	Listening on port 56913
+1599164128016	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599164142695	Marionette	INFO	Stopped listening on port 56913
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599164147572	geckodriver	INFO	Listening on 127.0.0.1:56955
+1599164151175	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileItpcm6"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: can't access dead object
+extension-storage: migration complete
+1599164154709	Marionette	INFO	Listening on port 56963
+1599164154857	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599164164688	Marionette	INFO	Stopped listening on port 56963
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599164175916	geckodriver	INFO	Listening on 127.0.0.1:56999
+1599164179563	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofiled1Gq7p"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599164183031	Marionette	INFO	Listening on port 57007
+1599164183240	Marionette	WARN	TLS certificate errors will be ignored for this session
+1599164190089	Marionette	INFO	Stopped listening on port 57007
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599164223316	geckodriver	INFO	Listening on 127.0.0.1:57070
+1599164226954	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileBkIT2x"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+extension-storage: migration complete
+1599164230473	Marionette	INFO	Listening on port 57078
+1599164230622	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 2
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 2
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 2
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 2
+1599164417367	Marionette	INFO	Stopped listening on port 57078
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1599164419004	geckodriver	INFO	Listening on 127.0.0.1:57231
+1599164422657	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofiletoYqu7"
+1599164424970	geckodriver	INFO	Listening on 127.0.0.1:57248
+1599164428606	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileadkBWB"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: TypeError: can't access dead object
+extension-storage: migration complete
+1599164432094	Marionette	INFO	Listening on port 57256
+1599164432300	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1599164457148	Marionette	INFO	Stopped listening on port 57256
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600335689192	geckodriver	INFO	Listening on 127.0.0.1:53452
+1600335692244	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileIg5cmD"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600335695545	Marionette	INFO	Listening on port 53460
+1600335695870	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600335707110	Marionette	INFO	Stopped listening on port 53460
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600335806935	geckodriver	INFO	Listening on 127.0.0.1:53531
+1600335809982	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilejslw7S"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600335814070	Marionette	INFO	Listening on port 53539
+1600335814111	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1600335880711	Marionette	INFO	Stopped listening on port 53539
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600335881737	geckodriver	INFO	Listening on 127.0.0.1:53615
+1600335884770	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileqRU4aV"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600335888679	Marionette	INFO	Listening on port 53623
+1600335888898	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600335996586	Marionette	INFO	Stopped listening on port 53623
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600335997650	geckodriver	INFO	Listening on 127.0.0.1:53683
+1600336000690	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileaaDNtR"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600336004419	Marionette	INFO	Listening on port 53691
+1600336004816	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600336017312	Marionette	INFO	Stopped listening on port 53691
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600336017982	geckodriver	INFO	Listening on 127.0.0.1:53757
+1600336021014	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileSNJCJS"
+1600336403169	geckodriver	INFO	Listening on 127.0.0.1:53773
+1600336406225	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilezqWTJD"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600336409765	Marionette	INFO	Listening on port 53781
+1600336409853	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+1600336617096	Marionette	INFO	Stopped listening on port 53781
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600336618058	geckodriver	INFO	Listening on 127.0.0.1:53876
+1600336756069	geckodriver	INFO	Listening on 127.0.0.1:53883
+1600336759126	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilepcxIX2"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600336762483	Marionette	INFO	Listening on port 53892
+1600336762752	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1600336830217	Marionette	INFO	Stopped listening on port 53892
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600336831637	geckodriver	INFO	Listening on 127.0.0.1:54016
+1600336834679	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilemQAiR7"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600336838111	Marionette	INFO	Listening on port 54024
+1600336838308	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 31760, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+1600336865037	Marionette	INFO	Stopped listening on port 54024
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600336874180	geckodriver	INFO	Listening on 127.0.0.1:54094
+1600336877237	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofile93wz19"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600336880657	Marionette	INFO	Listening on port 54103
+1600336880863	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+1600336988035	Marionette	INFO	Stopped listening on port 54103
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600336989501	geckodriver	INFO	Listening on 127.0.0.1:54232
+1600360567782	geckodriver	INFO	Listening on 127.0.0.1:50179
+1600360568934	geckodriver	INFO	Listening on 127.0.0.1:50182
+1600360571951	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileWmWJmb"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600360575108	Marionette	INFO	Listening on port 50190
+1600360575121	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11936, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1600360579598	Marionette	INFO	Stopped listening on port 50190
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600360696251	geckodriver	INFO	Listening on 127.0.0.1:50226
+1600360699284	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileewu7p5"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600360702372	Marionette	INFO	Listening on port 50234
+1600360702437	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600360709174	Marionette	INFO	Stopped listening on port 50234
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600360710576	geckodriver	INFO	Listening on 127.0.0.1:50266
+1600360713609	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileFECAiu"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600360716654	Marionette	INFO	Listening on port 50274
+1600360716760	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600360720776	geckodriver	INFO	Listening on 127.0.0.1:50307
+1600360723792	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileeikGA3"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600360726861	Marionette	INFO	Listening on port 50315
+1600360726959	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600360729890	Marionette	INFO	Stopped listening on port 50315
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600360771769	geckodriver	INFO	Listening on 127.0.0.1:50350
+1600360774801	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofile8myO7H"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600360777832	Marionette	INFO	Listening on port 50358
+1600360777945	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600360778676	Marionette	INFO	Stopped listening on port 50358
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600361600063	geckodriver	INFO	Listening on 127.0.0.1:50713
+1600361603111	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilerq3ohm"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600361606327	Marionette	INFO	Listening on port 50721
+1600361606758	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 689))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1600361655289	Marionette	INFO	Stopped listening on port 50721
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600361898051	geckodriver	INFO	Listening on 127.0.0.1:50992
+1600361901096	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofileBBWqNy"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600361904184	Marionette	INFO	Listening on port 51000
+1600361904228	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+1600361981798	Marionette	INFO	Stopped listening on port 51000
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600362136954	geckodriver	INFO	Listening on 127.0.0.1:51187
+1600362139978	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\manue\\AppData\\Local\\Temp\\rust_mozprofilePwU0KX"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600362143118	Marionette	INFO	Listening on port 51195
+1600362143615	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript warning: https://s.acdn.ur-img.com/js/components/unity/UnityLoader-7.2.0.js?v=1596205388, line 0: Successfully compiled asm.js code (total compilation time 0ms)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+JavaScript error: https://s.acdn.ur-img.com/min/js/collection.min.js?v=1594215976, line 1: ReferenceError: updateDeckFormatStats is not defined
+1600363950670	Marionette	INFO	Stopped listening on port 51195
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
