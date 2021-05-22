@@ -164,7 +164,7 @@ def verifica():
     p = 0
     jojjo = True
     lok = False
-    while jojjo: #asido
+    while jojjo:
         inputt = input("Inserisci un numero di 5 cifre: ")
         while inputt == "sugg" or inputt == "SUGG" or "info " in inputt or inputt == "n" or inputt == "N" or inputt == "r" or inputt == "R":
             if inputt == "sugg" or inputt == "SUGG":
@@ -296,6 +296,5 @@ def verifica():
 verifica()
 while lok:
     verifica()
-
 #with multiprocessing.Pool(8) as pool:
     #pool.map(printamelo, array)
