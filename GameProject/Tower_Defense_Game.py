@@ -16,6 +16,8 @@ class Game:
         self.t = 0
         self.dt = 0
         self.lives = 10
+        self.money = 100
+        self.level = 0
         self.image_lives = pygame.transform.scale(pygame.image.load('heart.png'), (64, 64))
         self.win = pygame.display.set_mode((self.width, self.height))
         self.bg = pygame.transform.scale(pygame.image.load("Tower-Defense-2D-Game-Kit8.jpg"), (self.width, self.height))
