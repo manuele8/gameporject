@@ -30,7 +30,7 @@ class Towers:
 
     def inrange(self, objs):
         for obj in objs:
-            dist = math.sqrt((self.x + self.imgtw.get_width()//2 - obj.x)**2 + (self.y + self.imgtw.get_height()//2 - obj.y)**2)
+            dist = math.sqrt((self.x + self.imgtw.get_width()//2 - obj.x - 32)**2 + (self.y + self.imgtw.get_height()//2 - obj.y - 32)**2)
             if dist <= self.range:
                 obj.health -= self.damage
 
