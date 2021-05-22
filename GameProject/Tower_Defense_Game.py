@@ -34,10 +34,16 @@ class Game:
 
         while run:
             if time.time() - self.timer > 2:
-                if self.count < 10:
+                if self.count < self.wavelenght:
                     self.timer = time.time()
                     self.enemies.append(random.choice([Goblin(), Red_Goblin(), Warrior()]))
                     self.count += 1
+                else:
+                    if len(self.enemies) == 0:
+                        self.count = 0
+                        self.level += 1
+                        self.wavelenght += 5
+                        print(self.level, self.wavelenght)
             self.textsurface = self.font.render(f"{self.lives}", False, (255, 255, 255))
             self.dt = clock.tick(
                 self.base_fps)  # dt (delta time), the duration of the last frame, usually not less than 1/fps seconds
@@ -65,11 +71,10 @@ class Game:
         for enemy in self.enemies[:]:
             enemy.draw(self.win)
             enemy.move(self.dt)
+            if enemy.x + enemy.get_width() > self.width or enemy.get_health() <= 0:
+                self.enemies.remove(enemy)
             if enemy.x + enemy.get_width() > self.width:
-                self.enemies.remove(enemy)
                 self.lives -= enemy.subtract_lives
-            if enemy.get_health() <= 0:
-                self.enemies.remove(enemy)
 
         pygame.display.update()
 
