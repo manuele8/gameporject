@@ -16,7 +16,7 @@ class Warrior(Enemy):
         self.img = None
         self.max_health = 2
         self.health = self.max_health
-        self.speed = 0.05
+        self.speed = 0.055
         self.warrior_count = 0
 
     def draw(self, win):

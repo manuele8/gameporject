@@ -16,7 +16,7 @@ class Goblin(Enemy):
         self.img = None
         self.max_health = 0.5
         self.health = self.max_health
-        self.speed = 0.15
+        self.speed = 0.1
         self.goblin_count = 0
 
     def draw(self, win):

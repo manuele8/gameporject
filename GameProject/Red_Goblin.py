@@ -14,9 +14,9 @@ class Red_Goblin(Enemy):
         super().__init__()
         self.imgss = imgs[:]
         self.img = None
-        self.max_health = 5
+        self.max_health = 4
         self.health = self.max_health
-        self.speed = 0.03
+        self.speed = 0.04
         self.red_goblin_count = 0
         self.subtract_lives = 2
 

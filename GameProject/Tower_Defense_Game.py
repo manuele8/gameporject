@@ -3,11 +3,18 @@ from Enemies import Enemy
 from Warrior import Warrior
 from Goblin import Goblin
 from Red_Goblin import Red_Goblin
+from Little_Barbarian import Little_Barbarian
+from Towers import Towers
 import random
 import time
 
 
+
+
 pygame.font.init()
+pygame.mixer.init()
+music = pygame.mixer.music.load('World of Warcraft - Nightsong - Music HD ツ.wav')
+pygame.mixer.music.play(-1)
 class Game:
     def __init__(self):
         self.height = 700
@@ -22,6 +29,8 @@ class Game:
         self.win = pygame.display.set_mode((self.width, self.height))
         self.bg = pygame.transform.scale(pygame.image.load("Tower-Defense-2D-Game-Kit8.jpg"), (self.width, self.height))
         self.enemies = []
+        self.add_health = 0.4
+        self.towers = [Towers(530, 330)]
         self.wavelenght = 0
         self.font = pygame.font.SysFont('comicsans', 95)
         self.array = []
@@ -36,13 +45,14 @@ class Game:
             if time.time() - self.timer > 2:
                 if self.count < self.wavelenght:
                     self.timer = time.time()
-                    self.enemies.append(random.choice([Goblin(), Red_Goblin(), Warrior()]))
+                    self.enemies.append(random.choice([Goblin(), Red_Goblin(), Warrior(), Little_Barbarian()]))
                     self.count += 1
                 else:
                     if len(self.enemies) == 0:
                         self.count = 0
                         self.level += 1
                         self.wavelenght += 5
+                        Enemy.add_healtha += self.add_health
                         print(self.level, self.wavelenght)
             self.textsurface = self.font.render(f"{self.lives}", False, (255, 255, 255))
             self.dt = clock.tick(
@@ -53,11 +63,12 @@ class Game:
                     run = False
                 if event.type == pygame.MOUSEBUTTONDOWN:
                     self.array.append(pygame.mouse.get_pos())
-                    print(self.array)
+                    for tw in self.towers:
+                        tw.selected(pygame.mouse.get_pos())
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_SPACE:
                         for enemy in self.enemies[:]:
-                            enemy.health -= 0.1
+                            enemy.health -= 0.2
             self.draw()
 
         pygame.quit()
@@ -75,6 +86,9 @@ class Game:
                 self.enemies.remove(enemy)
             if enemy.x + enemy.get_width() > self.width:
                 self.lives -= enemy.subtract_lives
+        for tw in self.towers:
+            tw.draw(self.win)
+            tw.inrange(self.enemies)
 
         pygame.display.update()
 

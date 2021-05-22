@@ -2,6 +2,7 @@ import pygame
 import math
 
 class Enemy:
+    add_healtha = 0
     def __init__(self):
         self.imgss = []
         self.img = None
@@ -15,12 +16,18 @@ class Enemy:
         self.speed = 0.05
         self.overflow_dist = 0
         self.subtract_lives = 1
+        self.count = 0
         self.flipped = False
 
     def draw(self, win):
         win.blit(self.img, (self.x, self.y))
         self.draw_health_bar(win)
         self.regen_health()
+        if self.count == 0:
+            self.add_health(Enemy.add_healtha)
+            self.count = 1
+
+
 
     def move(self, dt):
         x1, y1 = self.path[self.path_pos]
@@ -52,7 +59,7 @@ class Enemy:
             self.flipped = True
             for x, img in enumerate(self.imgss):
                 self.imgss[x] = pygame.transform.flip(img, True, False)
-        if dir_vector_norm[0] > 0 and self.flipped:
+        if dir_vector_norm[0] > -0.15 and self.flipped:
             self.flipped = False
             for x, img in enumerate(self.imgss):
                 self.imgss[x] = pygame.transform.flip(img, True, False)
@@ -83,5 +90,9 @@ class Enemy:
             self.health += self.regenhealth
         else:
             self.health = self.max_health
+
+    def add_health(self, add_health):
+        self.max_health += add_health
+        self.health = self.max_health
 
 
