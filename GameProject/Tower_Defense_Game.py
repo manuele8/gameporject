@@ -21,7 +21,7 @@ class Game:
         self.image_lives = pygame.transform.scale(pygame.image.load('heart.png'), (64, 64))
         self.win = pygame.display.set_mode((self.width, self.height))
         self.bg = pygame.transform.scale(pygame.image.load("Tower-Defense-2D-Game-Kit8.jpg"), (self.width, self.height))
-        self.enemies = [Red_Goblin()]
+        self.enemies = []
         self.wavelenght = 0
         self.font = pygame.font.SysFont('comicsans', 95)
         self.array = []
