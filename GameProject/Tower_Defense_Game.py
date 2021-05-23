@@ -5,6 +5,7 @@ from Goblin import Goblin
 from Red_Goblin import Red_Goblin
 from Little_Barbarian import Little_Barbarian
 from Towers import Towers
+from Archer_Tower import ArcherTower
 import random
 import time
 
@@ -30,7 +31,7 @@ class Game:
         self.bg = pygame.transform.scale(pygame.image.load("Tower-Defense-2D-Game-Kit8.jpg"), (self.width, self.height))
         self.enemies = []
         self.add_health = 0.4
-        self.towers = [Towers(530, 330)]
+        self.towers = [ArcherTower(530, 330)]
         self.wavelenght = 0
         self.font = pygame.font.SysFont('comicsans', 95)
         self.array = []
@@ -69,6 +70,9 @@ class Game:
                     if event.key == pygame.K_SPACE:
                         for enemy in self.enemies[:]:
                             enemy.health -= 0.2
+            if self.lives <= 0:
+                print("Hai perso!")
+                run = False
             self.draw()
 
         pygame.quit()
@@ -76,7 +80,7 @@ class Game:
     def draw(self):
         self.win.blit(self.bg, (0, 0))
         self.win.blit(self.textsurface, (self.width - self.textsurface.get_width() - self.image_lives.get_width() - 10, self.textsurface.get_height()/10))
-        self.win.blit(self.image_lives, (self.width - self.image_lives.get_width(), 2))
+        self.win.blit(self.image_lives, (self.width - self.image_lives.get_width() - 5, 2))
         '''for element in self.array:
             pygame.draw.circle(self.win, (200, 100, 100), element, 10)'''
         for enemy in self.enemies[:]:
