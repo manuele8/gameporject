@@ -21,7 +21,6 @@ class Enemy:
 
     def draw(self, win):
         win.blit(self.img, (self.x, self.y))
-        self.draw_health_bar(win)
         self.regen_health()
         if self.count == 0:
             self.add_health(Enemy.add_healtha)

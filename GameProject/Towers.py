@@ -10,8 +10,10 @@ class Towers:
         self.imgtw = None
         self.imgch = None
         self.range = 150
+        self.original_range = self.range
         self.tower_count = 0
         self.damage = 0.6
+        self.original_damage = self.damage
         self.distance_x = 50
         self.distance_y = 70
         self.imgch_x = 85
@@ -28,8 +30,9 @@ class Towers:
 
     def draw(self, win):
         win.blit(self.imgtw, (self.x, self.y))
-        win.blit(self.imgch, (self.x - self.imgch_x, self.y - self.imgch_y))
-        self.imgch.convert_alpha(win)
+        if self.imgch != None:
+            win.blit(self.imgch, (self.x - self.imgch_x, self.y - self.imgch_y))
+            self.imgch.convert_alpha(win)
         surface = pygame.Surface((self.range * 4, self.range * 4), pygame.SRCALPHA, 32)
         if self.selected_value:
             pygame.draw.circle(surface, (128, 128, 128, 100), (self.range, self.range), self.range, 0)

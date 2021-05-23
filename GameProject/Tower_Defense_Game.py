@@ -6,6 +6,8 @@ from Red_Goblin import Red_Goblin
 from Little_Barbarian import Little_Barbarian
 from Towers import Towers
 from Archer_Tower import ArcherTower
+from Range_Tower import RangeTower
+from Damage_Tower import DamageTower
 import random
 import time
 
@@ -31,7 +33,8 @@ class Game:
         self.bg = pygame.transform.scale(pygame.image.load("Tower-Defense-2D-Game-Kit8.jpg"), (self.width, self.height))
         self.enemies = []
         self.add_health = 0.4
-        self.towers = [ArcherTower(530, 330)]
+        self.attack_towers = [ArcherTower(530, 330), ArcherTower(450, 130)]
+        self.support_towers = [DamageTower(430, 330)]
         self.wavelenght = 0
         self.font = pygame.font.SysFont('comicsans', 95)
         self.array = []
@@ -39,6 +42,8 @@ class Game:
         self.count = 0
         self.score = 0
         self.bonus = False
+        self.health_bar = False
+        self.go = False
 
     def run(self):
         run = True
@@ -67,17 +72,27 @@ class Game:
                     run = False
                 if event.type == pygame.MOUSEBUTTONDOWN:
                     self.array.append(pygame.mouse.get_pos())
-                    for tw in self.towers:
+                    for tw in self.attack_towers:
+                        tw.selected(pygame.mouse.get_pos())
+                    for tw in self.support_towers:
                         tw.selected(pygame.mouse.get_pos())
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_SPACE:
-                        if not self.bonus and self.score >= 10:
+                        if not self.health_bar:
+                            self.go = True
+                            self.health_bar = True
+                        else:
+                            self.go = False
+                            self.health_bar = False
+
+
+                        '''if not self.bonus and self.score >= 10:
                             for enemy in self.enemies[:]:
                                 enemy.health -= 3
                             self.bonus = True
                         else:
                             for enemy in self.enemies[:]:
-                                enemy.health -= 0.2
+                                enemy.health -= 0.2'''
             if self.lives <= 0:
                 print("Hai perso!")
                 run = False
@@ -94,6 +109,8 @@ class Game:
             pygame.draw.circle(self.win, (200, 100, 100), element, 10)'''
         for enemy in self.enemies[:]:
             enemy.draw(self.win)
+            if self.go:
+                enemy.draw_health_bar(self.win)
             enemy.move(self.dt)
             if enemy.get_health() <= 0:
                 self.enemies.remove(enemy)
@@ -101,9 +118,12 @@ class Game:
             if enemy.x + enemy.get_width() > self.width:
                 self.enemies.remove(enemy)
                 self.lives -= enemy.subtract_lives
-        for tw in self.towers:
+        for tw in self.attack_towers:
             tw.draw(self.win)
             tw.inrange(self.enemies)
+        for tw in self.support_towers:
+            tw.draw(self.win)
+            tw.inrange(set(self.attack_towers))
 
         pygame.display.update()
 
