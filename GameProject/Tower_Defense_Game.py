@@ -37,6 +37,8 @@ class Game:
         self.array = []
         self.timer = time.time()
         self.count = 0
+        self.score = 0
+        self.bonus = False
 
     def run(self):
         run = True
@@ -56,6 +58,7 @@ class Game:
                         Enemy.add_healtha += self.add_health
                         print(self.level, self.wavelenght)
             self.textsurface = self.font.render(f"{self.lives}", False, (255, 255, 255))
+            self.textscore = self.font.render(f"{self.score}", False, (255, 0, 0))
             self.dt = clock.tick(
                 self.base_fps)  # dt (delta time), the duration of the last frame, usually not less than 1/fps seconds
             self.t += self.dt
@@ -68,8 +71,13 @@ class Game:
                         tw.selected(pygame.mouse.get_pos())
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_SPACE:
-                        for enemy in self.enemies[:]:
-                            enemy.health -= 0.2
+                        if not self.bonus and self.score >= 10:
+                            for enemy in self.enemies[:]:
+                                enemy.health -= 3
+                            self.bonus = True
+                        else:
+                            for enemy in self.enemies[:]:
+                                enemy.health -= 0.2
             if self.lives <= 0:
                 print("Hai perso!")
                 run = False
@@ -80,15 +88,18 @@ class Game:
     def draw(self):
         self.win.blit(self.bg, (0, 0))
         self.win.blit(self.textsurface, (self.width - self.textsurface.get_width() - self.image_lives.get_width() - 10, self.textsurface.get_height()/10))
+        self.win.blit(self.textscore, (self.textscore.get_width() / 2, self.textscore.get_height() / 4))
         self.win.blit(self.image_lives, (self.width - self.image_lives.get_width() - 5, 2))
         '''for element in self.array:
             pygame.draw.circle(self.win, (200, 100, 100), element, 10)'''
         for enemy in self.enemies[:]:
             enemy.draw(self.win)
             enemy.move(self.dt)
-            if enemy.x + enemy.get_width() > self.width or enemy.get_health() <= 0:
+            if enemy.get_health() <= 0:
                 self.enemies.remove(enemy)
+                self.score += 1
             if enemy.x + enemy.get_width() > self.width:
+                self.enemies.remove(enemy)
                 self.lives -= enemy.subtract_lives
         for tw in self.towers:
             tw.draw(self.win)

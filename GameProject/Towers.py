@@ -19,7 +19,7 @@ class Towers:
         self.selected_value = False
         self.hit_obj = None
         self.flipped = False
-        self.append_objects = []
+        self.append_objects = [3]
         self.cooldown = 0
         self.COOLDOWN = 0.6
         self.fps = 60
@@ -49,7 +49,8 @@ class Towers:
                     if dist <= self.range:
                         self.hit_obj = obj
                         self.Attack(self.hit_obj)
-                        if self.Change_Target(obj):
+                        self.Flip_Image(self.hit_obj)
+                        if self.Change_Target(self.hit_obj):
                             self.tower_count = 0
                         else:
                             self.tower_count += 1
@@ -57,13 +58,17 @@ class Towers:
 
         else:
             self.tower_count = 0
+            if self.flipped:
+                for x, imgg in enumerate(self.imgss):
+                    self.imgss[x] = pygame.transform.flip(imgg, True, False)
+                self.flipped = False
         self.append_objects = []
 
     def Attack(self, obj):
         if self.cooldown == 0:
             obj.health -= self.damage
             self.cooldown = 1
-        elif self.cooldown > 0 and self.cooldown <= 1:
+        if self.cooldown > 0 and self.cooldown <= 1:
             self.cooldown -= 1 / (60 * self.COOLDOWN)
         else:
             self.cooldown = 0
@@ -78,10 +83,15 @@ class Towers:
             return False
         return True
 
-    def Obj_Position(self, obj):
-        if self.x + self.imgtw.get_width() // 2 - obj.x - obj.get_width() / 2 < 0:
-            return True
-        return False
+    def Flip_Image(self, obj):
+        if self.x + self.imgtw.get_width() // 2 - obj.x - obj.get_width() / 2 < 0 and not self.flipped:
+            for x, imgg in enumerate(self.imgss):
+                self.imgss[x] = pygame.transform.flip(imgg, True, False)
+            self.flipped = True
+        elif self.x + self.imgtw.get_width() // 2 - obj.x - obj.get_width() / 2 > 0 and self.flipped:
+            for x, imgg in enumerate(self.imgss):
+                self.imgss[x] = pygame.transform.flip(imgg, True, False)
+            self.flipped = False
 
 
 
