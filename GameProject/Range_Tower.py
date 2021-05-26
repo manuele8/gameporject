@@ -9,15 +9,19 @@ class RangeTower(Towers):
         self.imgss = imgs[:]
         self.imgtw = img
         self.imgch = None
-        self.range = 100
+        self.range = 130
         self.effect = 0.2
         self.effected_towers = []
 
-
+    #tw.x + tw.imgtw.get_width(), tw.y + tw.imgtw.get_height()
     def inrange(self, objs):
         for obj in objs:
-            dist = math.sqrt((self.x + self.imgtw.get_width() // 2 - obj.x - obj.imgtw.get_width() / 2) ** 2 + (
-                        self.y + self.imgtw.get_height() // 2 - obj.y - obj.imgtw.get_height() / 2) ** 2)
+            if obj.imgch == None:
+                point = (obj.x + obj.imgtw.get_width(), obj.y)
+            else:
+                point = (obj.x + obj.imgtw.get_width()/2 + 10, obj.y - obj.imgch.get_height()/2 + 30)
+            dist = math.sqrt((self.x + self.imgtw.get_width()//2 - point[0]) ** 2 + (
+                        self.y + self.imgtw.get_height()//2 - point[1]) ** 2)
             if dist <= self.range:
                 self.effected_towers.append(obj)
         for element in self.effected_towers:

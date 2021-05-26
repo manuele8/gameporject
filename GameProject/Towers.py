@@ -12,7 +12,8 @@ class Towers:
         self.range = 150
         self.original_range = self.range
         self.tower_count = 0
-        self.damage = 0.6
+        self.damage = 0.3
+
         self.original_damage = self.damage
         self.distance_x = 50
         self.distance_y = 70
@@ -21,11 +22,11 @@ class Towers:
         self.selected_value = False
         self.hit_obj = None
         self.flipped = False
-        self.append_objects = [3]
+        self.append_objects = []
         self.cooldown = 0
-        self.COOLDOWN = 0.6
+        self.COOLDOWN = 0.55
         self.fps = 60
-        self.change_target_array = []
+        self.change_target_array = [3]
         self.cont = 0
 
     def draw(self, win):

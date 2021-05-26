@@ -10,18 +10,30 @@ for x in range(10, 20):
     imgs.append(img)
 
 class Warrior(Enemy):
+    maxhealth = 2
     def __init__(self):
         super().__init__()
         self.imgss = imgs[:]
         self.img = None
-        self.max_health = 2
+        self.max_health = Warrior.maxhealth
+        self.original_health = 2
         self.health = self.max_health
         self.speed = 0.055
         self.warrior_count = 0
+        self.money = 3
+        self.name = "Warrior"
 
     def draw(self, win):
-        if self.warrior_count >= len(self.imgss):
-            self.warrior_count = 0
         self.img = self.imgss[self.warrior_count]
         super().draw(win)
+
+    def move(self, dt):
         self.warrior_count += 1
+        if self.warrior_count >= len(self.imgss):
+            self.warrior_count = 0
+        super().move(dt)
+
+    def class_maxhp_add(self, level):
+        Warrior.maxhealth = self.original_health * (1 + level // 5 * self.percentage)
+        self.max_health = Warrior.maxhealth
+        self.health = self.max_health
