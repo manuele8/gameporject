@@ -28,9 +28,10 @@ class Boss_Ice_Golem(Enemy):
         self.subtract_lives = 5
         self.money = 20
 
-    def draw(self, win):
+    def draw(self, win, menu):
         self.img = self.imgss[self.boss_ice_golem_count]
-        super().draw(win)
+        self.textsurface = self.font.render(f"{round(self.health, 1)} / {round(self.max_health, 1)}" , False, (0, 0, 0))
+        super().draw(win, menu)
 
     def move(self, dt):
         self.boss_ice_golem_count += 1
@@ -43,7 +44,7 @@ class Boss_Ice_Golem(Enemy):
         health_bar = (self.health/self.max_health)*lenght
         pygame.draw.rect(win, (255, 0, 0), (self.x + 38, self.y + 13, lenght, 10))
         pygame.draw.rect(win, (0, 255, 0), (self.x + 38, self.y + 13, health_bar, 10))
-
+        #win.blit(self.textsurface, (self.x + 38 + self.lenght // 2 - self.textsurface.get_width() // 2, self.y + 13 - self.high // 2 + self.textsurface.get_height() // 2))
     def class_maxhp_add(self, level):
         Boss_Ice_Golem.maxhealth = self.original_health * (1 + (level - 1) // 5 * self.percentage)
         self.max_health = Boss_Ice_Golem.maxhealth

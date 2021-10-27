@@ -2,7 +2,7 @@ import pygame
 from Towers import Towers
 import math
 imgs = []
-img = pygame.transform.flip(pygame.transform.scale(pygame.image.load("imageonline-co-whitebackgroundremoved.png"), (100, 110)), False, False)
+img = pygame.transform.flip(pygame.transform.scale(pygame.image.load("kale1_12.png"), (200, 200)), False, False)
 
 
 class DamageTower(Towers):

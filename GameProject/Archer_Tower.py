@@ -13,8 +13,10 @@ class ArcherTower(Towers):
         self.imgch = None
         self.imgch_x = 25
         self.imgch_y = 23
+        self.damage = 0.3
         self.range = 200
         self.original_range = self.range
+        self.COOLDOWN = 0.55
 
     def draw(self, win):
         if self.tower_count >= self.fps * self.COOLDOWN:

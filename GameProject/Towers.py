@@ -13,7 +13,6 @@ class Towers:
         self.original_range = self.range
         self.tower_count = 0
         self.damage = 0.3
-
         self.original_damage = self.damage
         self.distance_x = 50
         self.distance_y = 70
@@ -27,7 +26,9 @@ class Towers:
         self.COOLDOWN = 0.55
         self.fps = 60
         self.change_target_array = [3]
+        self.enemies = []
         self.cont = 0
+        self.area = False
 
     def draw(self, win):
         win.blit(self.imgtw, (self.x, self.y))
@@ -44,33 +45,61 @@ class Towers:
             dist = math.sqrt((self.x + self.imgtw.get_width()//2 - obj.x - obj.get_width()/2)**2 + (self.y + self.imgtw.get_height()//2 - obj.y - obj.get_height()/2)**2)
             if dist <= self.range:
                 self.append_objects.append(obj.health)
-        if self.append_objects != []:
-            min_health = min(self.append_objects)
-            for obj in objs:
-                if obj.health == min_health:
-                    dist = math.sqrt((self.x + self.imgtw.get_width() // 2 - obj.x - obj.get_width() / 2) ** 2 + (
-                            self.y + self.imgtw.get_height() // 2 - obj.y - obj.get_height() / 2) ** 2)
-                    if dist <= self.range:
-                        self.hit_obj = obj
-                        self.Attack(self.hit_obj)
-                        self.Flip_Image(self.hit_obj)
-                        if self.Change_Target(self.hit_obj):
-                            self.tower_count = 0
-                        else:
-                            self.tower_count += 1
-                        break
+                self.enemies.append(obj)
+        if not self.area:
+            if self.append_objects != []:
+                min_health = min(self.append_objects)
+                for obj in objs:
+                    if obj.health == min_health:
+                        dist = math.sqrt((self.x + self.imgtw.get_width() // 2 - obj.x - obj.get_width() / 2) ** 2 + (
+                                self.y + self.imgtw.get_height() // 2 - obj.y - obj.get_height() / 2) ** 2)
+                        if dist <= self.range:
+                            self.hit_obj = obj
+                            self.Attack(self.hit_obj)
+                            self.Flip_Image(self.hit_obj)
+                            if self.Change_Target(self.hit_obj):
+                                self.tower_count = 0
+                            else:
+                                self.tower_count += 1
+                            break
 
+            else:
+                self.tower_count = 0
+                if self.flipped:
+                    for x, imgg in enumerate(self.imgss):
+                        self.imgss[x] = pygame.transform.flip(imgg, True, False)
+                    self.flipped = False
         else:
-            self.tower_count = 0
-            if self.flipped:
-                for x, imgg in enumerate(self.imgss):
-                    self.imgss[x] = pygame.transform.flip(imgg, True, False)
-                self.flipped = False
+            if self.enemies != []:
+                self.hit_obj = self.enemies[0]
+                self.AttackGroup(self.enemies)
+                self.Flip_Image(self.hit_obj)
+                if self.Change_Target(self.hit_obj):
+                    self.tower_count = 0
+                else:
+                    self.tower_count += 1
+            else:
+                self.tower_count = 0
+                if self.flipped:
+                    for x, imgg in enumerate(self.imgss):
+                        self.imgss[x] = pygame.transform.flip(imgg, True, False)
+                    self.flipped = False
         self.append_objects = []
+        self.enemies = []
 
     def Attack(self, obj):
         if self.cooldown == 0:
             obj.health -= self.damage
+            self.cooldown = 1
+        if self.cooldown > 0 and self.cooldown <= 1:
+            self.cooldown -= 1 / (60 * self.COOLDOWN)
+        else:
+            self.cooldown = 0
+
+    def AttackGroup(self, objs):
+        if self.cooldown == 0:
+            for obj in objs:
+                obj.health -= self.damage
             self.cooldown = 1
         if self.cooldown > 0 and self.cooldown <= 1:
             self.cooldown -= 1 / (60 * self.COOLDOWN)

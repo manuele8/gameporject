@@ -23,9 +23,12 @@ class Little_Barbarian(Enemy):
         self.little_barbarian_count = 0
         self.name = "Little_Barbarian"
 
-    def draw(self, win):
+
+    def draw(self, win, menu):
         self.img = self.imgss[self.little_barbarian_count]
-        super().draw(win)
+        self.textsurface = self.font.render(f"{round(self.health, 1)} / {round(self.max_health, 1)}" , False, (0, 0, 0))
+        super().draw(win, menu)
+
 
     def move(self, dt):
         self.little_barbarian_count += 1

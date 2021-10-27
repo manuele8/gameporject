@@ -24,9 +24,11 @@ class Red_Goblin(Enemy):
         self.money = 5
         self.name = "Red_Goblin"
 
-    def draw(self, win):
+    def draw(self, win, menu):
         self.img = self.imgss[self.red_goblin_count]
-        super().draw(win)
+        self.textsurface = self.font.render(f"{round(self.health, 1)} / {round(self.max_health, 1)}" , False, (0, 0, 0))
+        super().draw(win, menu)
+
 
     def move(self, dt):
         self.red_goblin_count += 1

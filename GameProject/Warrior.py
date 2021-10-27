@@ -23,9 +23,12 @@ class Warrior(Enemy):
         self.money = 3
         self.name = "Warrior"
 
-    def draw(self, win):
+
+    def draw(self, win, menu):
         self.img = self.imgss[self.warrior_count]
-        super().draw(win)
+        self.textsurface = self.font.render(f"{round(self.health, 1)} / {round(self.max_health, 1)}" , False, (0, 0, 0))
+        super().draw(win, menu)
+
 
     def move(self, dt):
         self.warrior_count += 1

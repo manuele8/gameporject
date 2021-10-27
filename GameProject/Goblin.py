@@ -10,21 +10,23 @@ for x in range(10, 20):
     imgs.append(img)
 
 class Goblin(Enemy):
-    maxhealth = 0.5
+    maxhealth = 0.8
     def __init__(self):
         super().__init__()
         self.imgss = imgs[:]
         self.img = None
         self.max_health = Goblin.maxhealth
-        self.original_health = 0.5
+        self.original_health = 0.8
         self.health = self.max_health
-        self.speed = 0.1
+        self.speed = 0.12
         self.goblin_count = 0
         self.name = "Goblin"
 
-    def draw(self, win):
+
+    def draw(self, win, menu):
         self.img = self.imgss[self.goblin_count]
-        super().draw(win)
+        self.textsurface = self.font.render(f"{round(self.health, 1)} / {round(self.max_health, 1)}" , False, (0, 0, 0))
+        super().draw(win, menu)
 
     def move(self, dt):
         self.goblin_count += 1

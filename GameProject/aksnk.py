@@ -12,4 +12,7 @@ for element in path:
 
 print(array)
 
-
+stringa2 = 3
+stringa3 = 5
+stringa = f"/ {stringa2} \n pesce di aprile {stringa3} \n pesce di aprile parte 2"
+print(stringa)

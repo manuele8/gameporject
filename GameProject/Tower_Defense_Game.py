@@ -9,6 +9,7 @@ from Towers import Towers
 from Archer_Tower import ArcherTower
 from Range_Tower import RangeTower
 from Damage_Tower import DamageTower
+from Menu import Menu
 import random
 import time
 
@@ -38,11 +39,14 @@ class Game:
         self.enemies = []
         self.add_health = 0.4
         self.attack_towers = [ArcherTower(530, 330), ArcherTower(450, 130)]
-        self.support_towers = [DamageTower(550, 130)]
+        self.support_towers = []
+        #self.support_towers = [DamageTower(400, 320)]
+        self.menu = Menu(self.width - 200, 100)
         self.wavelenght = 0
         self.font = pygame.font.SysFont('comicsans', 60)
         self.array = []
         self.array2 = []
+        self.array3 = []
         self.timer = time.time()
         self.count = 0
         self.score = 0
@@ -52,7 +56,8 @@ class Game:
         self.health_bar = False
         self.go = False
         self.paused = False
-        
+        self.value = False
+
     def run(self):
         run = True
         clock = pygame.time.Clock()
@@ -64,14 +69,13 @@ class Game:
                     if self.level % 5 == 0 and self.level != 0 and self.count < self.boss_count:
                         self.timer = time.time()
                         self.enemies.append(Boss_Ice_Golem())
-                        if self.level != 5:
-                            self.add_health_enemies()
+                        self.add_health_enemies()
+                        Enemy.regenhealth = 5
                         self.count += 1
                     elif (self.level % 5 != 0 or self.level == 0) and self.count < self.wavelenght:
                         self.timer = time.time()
                         self.enemies.append(random.choice([Goblin(), Red_Goblin(), Warrior(), Little_Barbarian()]))
-                        if self.level % 5 == 1 and self.level != 1:
-                            self.add_health_enemies()
+                        self.add_health_enemies()
                         self.count += 1
                     else:
                         if len(self.enemies) == 0:
@@ -107,20 +111,27 @@ class Game:
                             tw.selected(pygame.mouse.get_pos())
                         for tw in self.support_towers:
                             tw.selected(pygame.mouse.get_pos())
+                        for enemy in self.enemies:
+                            enemy.selected(pygame.mouse.get_pos())
+                            if self.value:
+                                enemy.selected_value = False
+                            if enemy.selected_value:
+                                self.value = True
+                        self.value = False
                     if event.type == pygame.KEYDOWN:
                         if event.key == pygame.K_d:
                             self.enemies = []
-                    if event.type == pygame.KEYDOWN:
+                    '''if event.type == pygame.KEYDOWN:
                         if event.key == pygame.K_SPACE:
                             if not self.health_bar:
                                 self.go = True
                                 self.health_bar = True
                             else:
                                 self.go = False
-                                self.health_bar = False
+                                self.health_bar = False'''
 
 
-                        '''if not self.bonus and self.score >= 10:
+                    '''if not self.bonus and self.score >= 10:
                             for enemy in self.enemies[:]:
                                 enemy.health -= 3
                             self.bonus = True
@@ -151,8 +162,6 @@ class Game:
         elif self.array2.count(last_element.name) > 1:
             last_element.max_health = last_element.maxhealth
             last_element.health = last_element.max_health
-        print(last_element.name + ": ", last_element.maxhealth, last_element.max_health, last_element.health,
-              last_element.original_health)
 
     def play(self, tuple):
         if self.paused:
@@ -169,12 +178,11 @@ class Game:
         self.win.blit(self.image_money, (15, 20 + self.image_lives.get_height()))
         self.win.blit(self.image_pause, (self.width - self.image_pause.get_width() - 5, 5))
         self.win.blit(self.image_play, (self.width - self.image_play.get_width() - 5 - self.image_pause.get_width() - 10, 5))
+        self.menu.draw(self.win)
         #for element in self.array:
             #pygame.draw.circle(self.win, (200, 100, 100), element, 10)
         for enemy in self.enemies[:]:
-            enemy.draw(self.win)
-            if self.go:
-                enemy.draw_health_bar(self.win)
+            enemy.draw(self.win, self.menu)
             if not self.paused:
                 enemy.move(self.dt)
             if enemy.get_health() <= 0:
